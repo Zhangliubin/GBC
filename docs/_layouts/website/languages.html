@@ -1,0 +1,25 @@
+{% extends template.self %}
+
+{% block body %}
+
+<div class="book-langs-index" role="navigation">
+    <div class="inner">
+        <h3>{{ "LANGS_CHOOSE"|t }}</h3>
+
+        <ul class="languages">
+        {%  for lang in languages.list %}
+            <li>
+                <a href="{{ (lang.id + "/README.md")|contentURL }}">{{ lang.title }}</a>
+            </li>
+        {% endfor %}
+        </ul>
+
+        {% if config.pluginsConfig['multilingual-index'].index %}
+			{% include "website/index_generated.html" %}
+		{% endif %}
+    </div>
+</div>
+
+<!-- 设置自动跳转到第一个 url 处 -->
+<script type="text/javascript">if ({{languages.list.length}} >= 1) {window.location.href="{{languages.list[0].id}}";}</script>
+{% endblock %}

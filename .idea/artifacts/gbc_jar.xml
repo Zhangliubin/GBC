@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="gbc:jar">
+    <output-path>$PROJECT_DIR$/</output-path>
+    <root id="archive" name="gbc.jar">
+      <element id="module-output" name="gbc" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../common-lib/zstd-jni-1.5.2-3/zstd-jni-1.5.2-3-win_amd64.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../common-lib/zstd-jni-1.5.2-3/zstd-jni-1.5.2-3-linux_amd64.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../common-lib/zstd-jni-1.5.2-3/zstd-jni-1.5.2-3-darwin_x86_64.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../common-lib/zstd-jni-1.5.2-3/zstd-jni-1.5.2-3-linux_aarch64.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../common-lib/zstd-jni-1.5.2-3/zstd-jni-1.5.2-3-darwin_aarch64.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../common-lib/logback-1.2.11/slf4j-api-1.7.32.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../common-lib/logback-1.2.11/logback-core-1.2.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../common-lib/logback-1.2.11/logback-classic-1.2.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../common-lib/commandParser-1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../common-lib/utils.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../common-lib/xz-java.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Main-Class: edu.sysu.pmglab.gbc.setup.Setup
+Class-Path: zstd-jni-1.5.2-3-win_amd64.jar zstd-jni-1.5.2-3/zstd-jni-1.5
+ .2-3-linux_amd64.jar zstd-jni-1.5.2-3/zstd-jni-1.5.2-3-darwin_x86_64.ja
+ r zstd-jni-1.5.2-3/zstd-jni-1.5.2-3-linux_aarch64.jar zstd-jni-1.5.2-3/
+ zstd-jni-1.5.2-3-darwin_aarch64.jar logback-1.2.11/slf4j-api-1.7.32.jar
+  logback-1.2.11/logback-core-1.2.11.jar logback-1.2.11/logback-classic-
+ 1.2.11.jar commandParser-1.1.jar utils.jar xz-java.jar
+

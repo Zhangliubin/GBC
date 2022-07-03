@@ -1,0 +1,105 @@
+{
+    "title": "Genotype Blocking Compressor (GBC)",
+    "description": "Genotype Blocking Compressor (GBC) 是一个面向基因组学 VCF 文件的基因型数据并行管理工具集",
+    "author": "suranyi",
+    "language": "zh-hans",
+    "plugins": [
+        "favicon-absolute",
+        "edit-link",
+        "-lunr",
+        "-search",
+        "search-plus",
+        "expandable-chapters-small",
+        "back-to-top-button",
+        "page-toc-button",
+        "katex",
+        "pagefooter-freedom",
+        "hide-element",
+        "-highlight",
+        "prism",
+        "prism-themes",
+        "github-buttons",
+        "summary-logo",
+        "code",
+        "todo",
+        "flexible-alerts",
+        "theme-comscore",
+        "language-picker",
+        "get-pdf",
+        "password-pro"
+    ],
+    "pdf": {
+        "fontSize": 14
+    },
+    "pluginsConfig": {
+        "favicon-absolute": {
+            "favicon": "/assets/logo32.ico",
+            "appleTouchIconPrecomposed152": "/assets/logo.png"
+        },
+        "edit-link": {
+            "base": "https://github.com/Zhangliubin/GBC/tree/main/docs/",
+            "label": ""
+        },
+        "flexible-alerts": {
+            "style": "flat",
+            "comment": {
+                "label": "Comment",
+                "icon": "fa fa-comments",
+                "className": "info"
+            },
+
+            "update": {
+                "label": "Update",
+                "icon": "fa fa-upload",
+                "className": "tip"
+            }
+        },
+        "pagefooter-freedom": {
+            "copyright":"Copyright ©张柳彬 all right reserved",
+            "modify_label": "文档修订时间: ",
+            "modify_format": "YYYY-MM-DD HH:mm:ss",
+            "hide": false
+        },
+        "hide-element": {
+            "elements": [
+                ".gitbook-link"
+            ]
+        },
+        "prism": {
+            "css": [
+                "prism-themes/themes/prism-one-light.css"
+            ],
+            "lang": {
+                "shell": "bash"
+            }
+        },
+        "github-buttons": {
+            "buttons": [
+                {
+                    "user": "Zhangliubin",
+                    "repo": "GBC",
+                    "type": "star",
+                    "size": "small"
+                }
+            ]
+        },
+        "summary-logo": {
+            "logo": "assets/department_logo.png",
+            "link": "https://pmglab.top",
+            "style": "background:#24572c;max-width:300px"
+        },
+        "code": {
+            "copyButtons": true
+        },
+        "language-picker": {
+            "grid-columns": 2
+        },
+        "get-pdf": {
+            "base": "http://pmglab.top/gbc/assets/",
+            "prefix": "UserManual"
+        },
+        "password-pro": {
+        }
+    }
+}
+
