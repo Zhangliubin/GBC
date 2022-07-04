@@ -49,3 +49,7 @@
     - [Contig 文件格式](usage/index_.md#IndexMode)
     - [为 VCF 文件构建 Contig 文件](usage/index_.md#BuildContig)
     - [重建染色体标签索引](usage/index_.md#RebuildContig)
+- 使用 API 工具进行开发
+  - GTB 组件与操作 GTB 文件
+  - MBEG 编码
+  - 位点对象

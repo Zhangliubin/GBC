@@ -127,7 +127,7 @@ class LDParser {
                 .validateWith(INTEGER.validateWith(0, 9))
                 .setDescription("Set the compression level. (Execute only if --o-bgz is passed in)");
         group002.register(INTEGER.VALUE, "--threads", "-t")
-                .defaultTo(String.valueOf(IParallelTask.INIT_THREADS))
+                .defaultTo(IParallelTask.INIT_THREADS)
                 .validateWith(INTEGER.validateWith(1))
                 .setDescription("Set the number of threads.");
         group002.register(IType.NONE, "--yes", "-y")

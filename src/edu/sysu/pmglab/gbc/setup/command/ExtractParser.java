@@ -161,7 +161,7 @@ class ExtractParser {
                 .setFormat("")
                 .setDescription("Parallel output is not controlled using the cyclic locking mechanism (CLM). With this parameter, parallel output means output to multiple temporary files and finally concatenating them together.");
         group002.register(INTEGER.VALUE, "--threads", "-t")
-                .defaultTo(String.valueOf(IParallelTask.INIT_THREADS))
+                .defaultTo(IParallelTask.INIT_THREADS)
                 .validateWith(INTEGER.validateWith(1))
                 .setDescription("Set the number of threads.");
         group002.register(BOOLEAN.VALUE, "--phased", "-p")

@@ -123,7 +123,7 @@ class SortParser {
                 .addOptions(REQUEST)
                 .setDescription("Set the output file.");
         group001.register(INTEGER.VALUE, "--threads", "-t")
-                .defaultTo(String.valueOf(IParallelTask.INIT_THREADS))
+                .defaultTo(IParallelTask.INIT_THREADS)
                 .validateWith(INTEGER.validateWith(1))
                 .setDescription("Set the number of threads.");
         group001.register(STRING.ARRAY_COMMA, "--subject", "-s")
