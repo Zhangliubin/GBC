@@ -228,7 +228,7 @@ public class Variant<T> implements Comparable<Variant<T>> {
     public Variant(String chromosome, int position, byte[] Allele, byte[] BEGs, boolean phased) {
         this(chromosome, position, Allele, Allele, BEGs, phased);
         int sepIndex = ArrayUtils.indexOf(Allele, ByteCode.TAB);
-        this.REF = ArrayUtils.copyOfRange(Allele, sepIndex);
+        this.REF = ArrayUtils.copyOfRange(Allele, 0, sepIndex);
         this.ALT = ArrayUtils.copyOfRange(Allele, sepIndex + 1, Allele.length);
     }
 
